@@ -43,3 +43,4 @@
 *.vcxproj.filters
 *.vcxproj.users
 *.user
+*.ipch
