@@ -55,7 +55,7 @@ public:
         for (int i = 0; i < tmp.size(); i++)
         {
             path.push_back(tmp[i]);
-            backtrack(digits, index + 1);
+            backtrack(digits, i + 1);
             path.pop_back();
         }
 
