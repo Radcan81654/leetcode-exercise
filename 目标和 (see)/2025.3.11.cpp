@@ -12,6 +12,7 @@ public:
             return 0; // 没有方案
         int bagSize = (target + sum) / 2;
 
+        //在放置[0,i]这个闭区间里的元素的时候，它们的和恰好是j时，有dp[i][j]种放置方法
         vector<vector<int>> dp(nums.size(), vector<int>(bagSize + 1, 0));
 
         // 初始化最上行
